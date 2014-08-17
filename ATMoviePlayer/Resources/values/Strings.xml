@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">ATMoviePlayer</string>
+
+	<string name="button_label_movie">Movie</string>
+	<string name="button_label_music">Music</string>
+
+	<string name="menu_play">Play</string>
+	<string name="menu_multisel">Multi</string>
+	<string name="menu_multisel_checked">Multi(!)</string>
+	<string name="menu_repeat">Repeat</string>
+	<string name="menu_repeat_checked">Repeat(!)</string>
+	<string name="menu_random">Random</string>
+	<string name="menu_random_checked">Random(!)</string>
+</resources>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+	<dimen name="button_typesel_height">40dp</dimen>
+
+	<dimen name="list_thumbnail_width">48dp</dimen>
+	<dimen name="list_thumbnail_height">48dp</dimen>
+</resources>

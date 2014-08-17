@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    	android:id="@+id/play_all"
+    	android:icon="@android:drawable/ic_media_play"
+    	android:title="@string/menu_play" />
+    <item
+    	android:id="@+id/multi_sel"
+    	android:title="@string/menu_multisel" />
+    <item
+    	android:id="@+id/repeat_all"
+    	android:checkable="true"
+    	android:title="@string/menu_repeat" />
+    <item
+    	android:id="@+id/random_all"
+    	android:checkable="true"
+    	android:title="@string/menu_random" />
+</menu>

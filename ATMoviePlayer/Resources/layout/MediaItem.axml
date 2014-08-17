@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="@dimen/list_thumbnail_width"
+        android:layout_height="@dimen/list_thumbnail_height"
+        android:id="@+id/thumbImage"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectedCheckBox"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:enabled="false"
+        android:visibility="gone"
+        android:tag="MiltiSelCheck" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_toRightOf="@id/thumbImage"
+        android:layout_toLeftOf="@id/selectedCheckBox">
+        <TextView
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mediaTitle" />
+    </LinearLayout>
+</RelativeLayout>
